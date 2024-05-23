@@ -104,5 +104,7 @@ class Game
   end
 end
 
-game = Game.new
-game.play
+if __FILE__ == $0
+  game = Game.new
+  game.play
+end
